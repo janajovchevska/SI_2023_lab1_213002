@@ -1,0 +1,88 @@
+4.
+-mkdir SI_2023_lab1_213002 -> креирање на директориум
+-cd SI_2023_lab1_213002 -> влегуваме во директориумот
+-git init -> го иницијализираме Git
+
+5.
+-git remote add origin https://github.com/janajovchevska/SI_2023_lab1_213002.git -> поврзување на локалниот репозиториум со оддалечениот репозиториум
+
+6.
+-echo Jana Jovchevska, 213002 >> README.md -> за креирање датотека
+-git add README.md -> ставаме во staged
+-git commit -m "Initial commit" -> правиме commit
+
+7.
+-notepad SILab1.java -> креирање на нова датотека
+-git add SILab1.java -> ставаме во staged
+-git commit -m "Add java class" -> правиме commit
+
+8.
+-git push origin master -> синхронизација од локалниот кон оддалечениот репозиториум
+
+9.
+-git branch bug1
+-git branch bug2
+-git branch bug3 -> отварање на три гранки
+
+10.
+-git checkout bug1 -> префрлање на гранка
+
+11.
+-notepad SILab1.java -> ја исправив грешката во for циклусот кој се користи за читање на N-те броеви
+од стандарден влез
+-git commit -a -m "Fix wrong loop for reading" -> директно да се стави во staged и да се commit-не
+
+12.
+-git checkout bug2 -> префрлање на гранка
+
+13.
+-notepad SILab1.java -> ја исправив грешката во методот filterOddNumbers
+-git commit -a -m "Fix wrong condition in filterOddNumbers" -> директно да се стави во staged и да се commit-не
+
+14.
+-git checkout bug3 -> префрлање на гранка
+
+15.
+-notepad SILab1.java -> ја исправив грешката во методот sumEvenNumbers
+-git commit -a -m "Fix method sumEvenNumbers" -> директно да се стави во staged и да се commit-не
+
+16.
+-git push origin bug1
+-git push origin bug2
+-git push origin bug3 -> синхронизација на сите гранки од лoкалниот кон оддалечениот репозиториум
+
+17.
+-git checkout master -> префрлање на гранката master
+
+18.
+-git merge bug1 -> Ја споивме гранката bug1 кон master (при извршување на наредбата не се случил конфликт, стратегија употребена за да се изврши спојувањето е Fast-forward)
+
+19.
+-git push origin master -> за синхранизација со оддалечениот репозиториум
+
+20.
+-git merge bug2 -> Спојување на гранката bug2 кон master (Автоматски се употреби Auto-merging, со помош на 'ort' стратегија)
+
+21.
+-git push origin master -> за синхранозацја со оддалечениот репозиториум
+
+22.
+-git checkout bug3 -> префрлање на гранката bug3
+
+23.
+-git rebase master -> rebase спрема гранката master
+
+24.
+-git checkout master -> префрлање на гранката master
+
+25.
+-git merge bug3 -> Спојување на гранката bug3 кон master (при извршување на наредбата не се случил конфликт, стратегија употребена за да се изврши спојувањето е Fast-forward)
+
+26. 
+-git push origin master
+-git push --force origin bug3 -> за синхранозацја со оддалечениот репозиториум
+
+
+
+
+

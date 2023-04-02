@@ -1,0 +1,37 @@
+C:\Users\Dell G5\Desktop\SI_2023_lab1_213002>git log
+commit ba2cc9a74a60e9e722ba10a1ca741a5c4982f09a (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Jana Jovchevska <jana.jovchevska@students.finki.ukim.mk>
+Date:   Sat Apr 1 23:37:48 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit b19bfeaf272b14c696d833081fa62500b39e3f35
+Merge: b155f58 810553d
+Author: Jana Jovchevska <jana.jovchevska@students.finki.ukim.mk>
+Date:   Sun Apr 2 19:12:55 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 810553d43ef37ea4efe6cc4f66bf450e5317dd9d (origin/bug2, bug2)
+Author: Jana Jovchevska <jana.jovchevska@students.finki.ukim.mk>
+Date:   Sat Apr 1 23:30:56 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit b155f585b68f10744ba460b231658d49aae2bac3 (origin/bug1, bug1)
+Author: Jana Jovchevska <jana.jovchevska@students.finki.ukim.mk>
+Date:   Sat Apr 1 23:20:37 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 4486c1c8a160e4d4cfe5863d33b65722e45fb4a2
+Author: Jana Jovchevska <jana.jovchevska@students.finki.ukim.mk>
+Date:   Sat Apr 1 22:50:37 2023 +0200
+
+    Add java class
+
+commit 46763efad8fe9314c77723e936d22aa205cba6e6
+Author: Jana Jovchevska <jana.jovchevska@students.finki.ukim.mk>
+Date:   Sat Apr 1 22:32:22 2023 +0200
+
+    Initial commit
